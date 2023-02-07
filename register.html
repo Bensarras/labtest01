@@ -1,0 +1,64 @@
+<html>
+  <head>
+    <title>Signup Page</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f2f2f2;
+        text-align: center;
+      }
+      form {
+        background-color: #ffffff;
+        padding: 50px;
+        border-radius: 10px;
+        box-shadow: 0px 0px 10px #aaaaaa;
+        margin: 100px auto;
+        width: 400px;
+      }
+      h1 {
+        font-size: 24px;
+        margin-bottom: 40px;
+      }
+      label, input[type="submit"] {
+        display: block;
+        margin-bottom: 20px;
+      }
+      label {
+        font-size: 18px;
+      }
+      input[type="text"], input[type="email"], input[type="password"] {
+        padding: 10px;
+        font-size: 16px;
+        width: 100%;
+        box-sizing: border-box;
+        border-radius: 5px;
+        border: 1px solid #aaaaaa;
+      }
+      input[type="submit"] {
+        background-color: #4CAF50;
+        color: #ffffff;
+        padding: 10px 20px;
+        border-radius: 5px;
+        border: none;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Create a New Account</h1>
+    <h1>WE LOVE Pritesh Patel BEST PROFESOR EVER</h1>
+    <h2>Already registered?</h2>
+    <input type=button onClick="location.href='login.html'"
+      value='go to login'>
+    
+    <form action="/" method="post">
+      <label for="username">Username:</label>
+      <input type="text" id="username" name="username" required><br><br>
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required><br><br>
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password" required><br><br>
+      <input type="submit" value="Sign Up" >
+    </form>
+  </body>
+</html>
